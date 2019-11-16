@@ -67,12 +67,12 @@ Serial.begin(9600);
   Serial.println(F("Initializing DMP..."));
   devStatus = mpu.dmpInitialize();
 
-  mpu.setXAccelOffset(-3422);
-  mpu.setYAccelOffset(-3491);
-  mpu.setZAccelOffset(1831);
-  mpu.setXGyroOffset(65);
-  mpu.setYGyroOffset(10);
-  mpu.setZGyroOffset(-26);
+  mpu.setXAccelOffset(-3457);
+  mpu.setYAccelOffset(-808);
+  mpu.setZAccelOffset(893);
+  mpu.setXGyroOffset(260);
+  mpu.setYGyroOffset(-49);
+  mpu.setZGyroOffset(-32);
 
   if (devStatus == 0) {
 
